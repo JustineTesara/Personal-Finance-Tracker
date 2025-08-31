@@ -1,34 +1,44 @@
-# Personal Finance Tracker 💰
+#💰 Personal Finance Tracker
 
-A simple **Personal Finance Tracker** web app that allows users to **calculate income, expenses, view transactions, and check their balance**.  
+A simple yet functional Personal Finance Tracker web app that helps users manage their income, expenses, and balance in real-time.
 
-This project highlights my skills in **JavaScript DOM manipulation**, handling user input, and dynamically updating the UI.
-
----
-
-## ✨ Features
-- Add **income** with description  
-- Add **expense** with description  
-- Automatically updates **balance**  
-- Displays a **transaction history** with color indicators:  
-  - 🟢 Green for income  
-  - 🔴 Red for expenses  
+This project demonstrates my skills in JavaScript DOM manipulation, working with user inputs, and building a dynamic, interactive UI.
 
 ---
 
-## 🛠️ Technologies Used
-- **HTML** – structure of the app  
-- **CSS** – basic styling  
-- **JavaScript (Vanilla JS)** – core logic and DOM manipulation  
+✨ Features
+
+✅ Add income with custom description
+✅ Add expenses with custom description
+✅ Automatically updates and formats the total balance (₱ Philippine Peso)
+✅ Displays a transaction history with visual indicators:
+
+🟢 Green = Income
+
+🔴 Red = Expense
+✅ Live doughnut chart (Chart.js) to visualize income vs. expenses
+
+---
+
+🛠️ Tech Stack
+
+HTML5 – structure and content
+
+CSS3 – modern and responsive styling
+
+JavaScript (Vanilla JS) – app logic and DOM updates
+
+Chart.js – data visualization
 
 ---
 
 ## 📸 Demo Screenshot 
-<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/903768a1-5082-4699-843c-00e41ce29015" />
+<img width="1905" height="865" alt="image" src="https://github.com/user-attachments/assets/28d5c3bf-18b9-4a72-8a29-12265b38af40" />
 
-<img width="1918" height="868" alt="image" src="https://github.com/user-attachments/assets/8f0a75de-a60b-4d8b-9e78-4b4682289397" />
+<img width="1901" height="870" alt="image" src="https://github.com/user-attachments/assets/1e85b8a2-5b67-45ab-9e11-7d59ce0773b0" />
 
-## Webpage:
+
+🌐 Live Demo
 url: https://justinetesara.github.io/Personal-Finance-Tracker/
 
 
