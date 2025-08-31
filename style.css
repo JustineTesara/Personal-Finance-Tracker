@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+.balance {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.form {
+  background: #fff;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 15px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.transactions {
+  margin-top: 20px;
+}
+
+.transactions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions li {
+  background: #fff;
+  padding: 10px;
+  margin: 5px auto;
+  border-radius: 5px;
+  max-width: 300px;
+}

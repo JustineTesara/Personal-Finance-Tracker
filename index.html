@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>💰 My Finance Tracker</h1>
+
+    <div class="balance">
+      <h2>Total Balance: <span id="balance">0</span></h2>
+    </div>
+
+    <!-- Income Form -->
+    <div class="form">
+      <h3>Add Income</h3>
+      <input
+        type="text"
+        id="incomeDescription"
+        placeholder="Enter income description"
+      />
+      <input type="number" id="incomeInput" placeholder="Enter income amount" />
+
+      <button id="addIncome">Add Income</button>
+    </div>
+
+    <!-- Expense Form -->
+    <div class="form">
+      <h3>Add Expense</h3>
+      <input
+        type="text"
+        id="expenseDescription"
+        placeholder="Enter expense description"
+      />
+      <input
+        type="number"
+        id="expenseInput"
+        placeholder="Enter expense amount"
+      />
+      <button id="addExpense">Add Expense</button>
+    </div>
+
+    <!-- Transaction List -->
+    <div class="transactions">
+      <h3>Transactions</h3>
+      <ul id="transactionList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
